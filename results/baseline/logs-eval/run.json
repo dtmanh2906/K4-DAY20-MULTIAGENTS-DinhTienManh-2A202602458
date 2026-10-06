@@ -1,0 +1,74 @@
+{
+  "task": "logs-eval",
+  "condition": "baseline",
+  "role": "eval",
+  "error": "RemoteProtocolError: Server disconnected without sending a response.",
+  "timestamp": "2026-10-06T04:20:30.670683+00:00",
+  "skills_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "seconds": 89.5,
+  "tokens": {
+    "input": 119141,
+    "output": 758,
+    "total": 119899
+  },
+  "tool_calls": 0,
+  "subagent_calls": 0,
+  "skills_read": 0,
+  "skills_modified": false,
+  "final_message": "",
+  "score": 0.0,
+  "passed": 0,
+  "total": 10,
+  "checks": [
+    {
+      "name": "valid_structure",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "entry_count",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "timestamps_utc",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "levels_uppercase",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "repeat_counts",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "counts_by_service",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "rule_service_names",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "rule_sorted_errors",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "rule_schema_header",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "rule_source_line",
+      "passed": false,
+      "detail": ""
+    }
+  ]
+}
